@@ -1,5 +1,5 @@
 <h1 align="center">Roblox Cookie Login Extension</h1>
-<h2 align="center">This extension can login to Roblox using a `.ROBLOSECURITY` cookie value</h2>
+<h2 align="center">This extension can login to Roblox using a .ROBLOSECURITY cookie value</h2>
 
 ---
 
