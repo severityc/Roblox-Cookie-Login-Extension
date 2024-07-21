@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Roblox Easy Cookie",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "image.png",
+        "type": "module"
+    },
+    "host_permissions": [
+        "https://www.roblox.com/*",
+        "https://web.roblox.com/*"
+    ],
+    "background": {},
+    "permissions": ["scripting", "activeTab", "cookies", "tabs"]
+}

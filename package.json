@@ -1,0 +1,31 @@
+{
+  "name": "robloxcookies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "contributors": [],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "compile": "npx tsc",
+    "copy-assets": "rsync -av --exclude 'tsconfig.json' --exclude 'src' --exclude 'dist' ./ dist/",
+    "build": "npm run clean && npm run compile && npm run copy-assets"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.267",
+    "typescript": "^5.4.5"
+  }
+}
